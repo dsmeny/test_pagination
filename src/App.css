@@ -28,11 +28,25 @@
   color: #61dafb;
 }
 
+.fade {
+  animation: fadein 1s ease both;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
   }
 }
